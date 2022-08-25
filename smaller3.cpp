@@ -17,7 +17,7 @@ int main()
 	int number3 = 0;
 	cin >> number3;
 	
-	if (number1 > number2){
+	if (number1 > number2 || number2 < number1){
 		small = number2;
 	}
   
