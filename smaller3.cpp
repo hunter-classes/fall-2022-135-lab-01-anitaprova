@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int small = 0;
-  cout << "Enter the integer: " << endl;
+	cout << "Enter the integer: " << endl;
 	int number1 = 0;
 	cin >> number1;
 	
@@ -13,16 +13,18 @@ int main()
 	int number2 = 0;
 	cin >> number2;
   
-  cout << "Enter the third integer: " << endl;
-  int number3 = 0;
-  cin >> number3;
+	cout << "Enter the third integer: " << endl;
+	int number3 = 0;
+	cin >> number3;
 	
 	if (number1 > number2){
 		small = number2;
 	}
   
-  if (number3 < small){
-    small = number3;
+	if (number3 < small){
+		small = number3;
 	}
-  return 0;
+	
+	cout << small << " is the smallest integer." << endl;
+	return 0;
 }
