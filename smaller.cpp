@@ -10,8 +10,8 @@ int main()
 	
 	cout << "Enter the second integer: " << endl;
 	int number2 = 0;
-	cin >> number1;
-
+	cin >> number2;
+	
 	if (number1 > number2){
 		cout << number2 << " is the smaller integer." << endl;
 	}
