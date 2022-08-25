@@ -13,12 +13,10 @@ int main()
   cin >> number1;
   
   if (number1 > number2){
-    
+    cout << number2 << " is the smaller integer." << end1;
   }
     
   if (number2 > number1){
-    
+    cout << number1 << " is the smaller integer." << end1; 
   }
-    
-  cout << << " is the smaller integer." << end1;
 }
