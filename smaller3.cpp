@@ -20,8 +20,7 @@ int main()
 	if (number1 > number2){
 		small = number2;
 	}
-	
-	if (number1 < number2){
+	else if (number1 < number2){
 		small = number1;
 	}
   
