@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-	cout << "Enter the integer: " << endl;
+	cout << "Enter the integer: ";
 	int number1 = 0;
 	cin >> number1;
 	
-	cout << "Enter the second integer: " << endl;
+	cout << "Enter the second integer: ";
 	int number2 = 0;
 	cin >> number2;
 	
