@@ -15,10 +15,28 @@ int main()
 	{
 		cout << "31 Days" << endl;
 	}
-	
-	if ()
+	else if(month == 2)
 	{
-		
+		if (year % 4 != 0) //Common Year
+		{
+			cout << "28 Days" << endl;
+		}
+		else if (year % 100 != 0) //Leap Year
+		{
+			cout << "29 Days" << endl;
+		}
+		else if(year % 400 != 0) //Common Year
+		{
+			cout << "28 Days" << endl;
+		}
+		else //Leap Year
+		{
+			cout << "29 Days" << endl;
+		}
+	}
+	else
+	{
+		cout << "30 Days" << endl;	
 	}
 	
 	return 0;
