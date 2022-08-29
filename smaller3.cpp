@@ -5,15 +5,15 @@ using namespace std;
 int main()
 {
 	int small = 0;
-	cout << "Enter the integer: " << endl;
+	cout << "Enter the integer: ";
 	int number1 = 0;
 	cin >> number1;
 	
-	cout << "Enter the second integer: " << endl;
+	cout << "Enter the second integer: ";
 	int number2 = 0;
 	cin >> number2;
   
-	cout << "Enter the third integer: " << endl;
+	cout << "Enter the third integer: ";
 	int number3 = 0;
 	cin >> number3;
 	
