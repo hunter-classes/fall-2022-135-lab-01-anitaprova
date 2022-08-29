@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {
-	cout << "Enter year: " << endl;
+	cout << "Enter year: ";
 	int year = 0;
 	cin >> year;
 	
-	cout << "Enter month: " << endl;
+	cout << "Enter month: ";
 	int month = 0;
 	cin >> month;
 	
