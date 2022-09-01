@@ -5,15 +5,15 @@ using namespace std;
 int main()
 {
 	int small = 0;
-	cout << "Enter the integer: ";
+	cout << "Enter the first number: ";
 	int number1 = 0;
 	cin >> number1;
 	
-	cout << "Enter the second integer: ";
+	cout << "Enter the second number: ";
 	int number2 = 0;
 	cin >> number2;
   
-	cout << "Enter the third integer: ";
+	cout << "Enter the third number: ";
 	int number3 = 0;
 	cin >> number3;
 	
@@ -28,6 +28,6 @@ int main()
 		small = number3;
 	}
 	
-	cout << small << " is the smallest integer." << endl;
+	cout << "The smaller of the three is " << small << endl;
 	return 0;
 }
