@@ -1,3 +1,11 @@
+/*
+Author: Anita Prova
+Course: CSCI-135
+Instructor: Genady Maryash
+Assignment: Lab 1C
+The program finds whether or not the inputted year is a leap year or common year.
+*/
+
 #include <iostream>
 using namespace std;
 
