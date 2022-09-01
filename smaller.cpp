@@ -1,3 +1,11 @@
+/*
+Author: Anita Prova
+Course: CSCI-135
+Instructor: Genady Maryash
+Assignment: Lab 1A
+The program finds the smallest of two integers. 
+*/
+
 #include <iostream>
 
 using namespace std;
