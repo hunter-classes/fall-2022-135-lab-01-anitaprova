@@ -1,3 +1,11 @@
+/*
+Author: Anita Prova
+Course: CSCI-135
+Instructor: Genady Maryash
+Assignment: Lab 1D
+The program gives how many days are in a month. 
+*/
+
 #include <iostream>
 using namespace std;
 
